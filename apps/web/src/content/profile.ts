@@ -20,7 +20,7 @@ export const profile = {
   imageSlots: {
     about: {
       alt: "Editorial profile placeholder for the about section until a real portrait is added.",
-      fallbackSrc: "/images/profile/usman-about-placeholder.svg",
+      fallbackSrc: "/images/profile/usman-about-placeholder.jpg",
       preferredSrc: "/images/profile/usman-about.webp",
       sizes: "(min-width: 1024px) 32vw, 88vw",
       width: 960,
@@ -36,7 +36,7 @@ export const profile = {
     },
     hero: {
       alt: "Hero portrait placeholder for Usman Ghani until a production photo is supplied.",
-      fallbackSrc: "/images/profile/usman-hero-placeholder.svg",
+      fallbackSrc: "/images/profile/usman-hero-placeholder.jpg",
       preferredSrc: "/images/profile/usman-hero.webp",
       priority: true,
       sizes: "(min-width: 1280px) 38vw, (min-width: 768px) 48vw, 88vw",
