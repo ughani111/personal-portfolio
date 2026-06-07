@@ -1,0 +1,10 @@
+<svg width="960" height="1180" viewBox="0 0 960 1180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="1180" rx="52" fill="#EDE5DA"/>
+  <rect x="84" y="84" width="792" height="1012" rx="36" fill="#F7F1E8" stroke="#111111" stroke-opacity="0.14"/>
+  <circle cx="480" cy="406" r="142" fill="#111111"/>
+  <circle cx="480" cy="406" r="96" fill="#F7F1E8"/>
+  <rect x="254" y="612" width="452" height="284" rx="118" fill="#111111"/>
+  <path d="M268 972H692" stroke="#111111" stroke-opacity="0.12" stroke-width="4" stroke-linecap="round"/>
+  <text x="480" y="972" text-anchor="middle" fill="#111111" font-family="Arial, sans-serif" font-size="30" letter-spacing="6">ABOUT PORTRAIT SLOT</text>
+  <text x="480" y="1022" text-anchor="middle" fill="#6F675F" font-family="Arial, sans-serif" font-size="22" letter-spacing="2">Replace with /public/images/profile/usman-about.webp</text>
+</svg>

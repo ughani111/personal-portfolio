@@ -1,0 +1,37 @@
+{
+  "name": "usman-ghani-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @portfolio/web",
+    "build": "npm run build -w @portfolio/web",
+    "start": "npm run start -w @portfolio/web",
+    "lint": "npm run lint -w @portfolio/web",
+    "typecheck": "npm run typecheck -w @portfolio/web",
+    "test": "npm run test -w @portfolio/web",
+    "test:e2e": "npm run test:e2e -w @portfolio/web",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.57.1",
+    "@next/eslint-plugin-next": "14.2.35",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

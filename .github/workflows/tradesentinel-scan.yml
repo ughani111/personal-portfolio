@@ -1,0 +1,44 @@
+name: TradeSentinel Scan
+
+on:
+  schedule:
+    - cron: "*/20 13-21 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Restore TradeSentinel cache
+        uses: actions/cache@v4
+        with:
+          path: apps/api/data
+          key: tradesentinel-sqlite-${{ github.ref_name }}-${{ github.run_id }}
+          restore-keys: |
+            tradesentinel-sqlite-${{ github.ref_name }}-
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npm run build -w @open-stack/core && npm run build -w @open-stack/storage
+
+      - name: Scan and alert
+        run: npm run scan -w @open-stack/api
+        env:
+          DATABASE_URL: apps/api/data/tradesentinel.sqlite
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MIN_CONFIDENCE: "75"
+          MAX_RISK_PERCENT: "1"
+          TRAILING_STOP_PERCENT: "4"

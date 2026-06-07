@@ -1,0 +1,21 @@
+<svg width="1120" height="1380" viewBox="0 0 1120 1380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1120" height="1380" rx="64" fill="#E8E0D5"/>
+  <circle cx="575" cy="512" r="202" fill="url(#heroGlow)" opacity="0.92"/>
+  <rect x="176" y="128" width="768" height="1124" rx="40" fill="#F5F0E7" stroke="#111111" stroke-opacity="0.16"/>
+  <circle cx="560" cy="440" r="148" fill="#111111"/>
+  <path d="M436 424C484 358 638 358 684 424C713 465 715 522 694 560C657 627 579 642 560 642C541 642 462 627 426 560C405 522 408 465 436 424Z" fill="#F5F0E7"/>
+  <path d="M372 860C372 715 452 642 560 642C668 642 748 715 748 860V982H372V860Z" fill="#111111"/>
+  <rect x="308" y="1018" width="504" height="88" rx="44" fill="#111111"/>
+  <path d="M308 1062H812" stroke="#F5F0E7" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round"/>
+  <text x="560" y="1110" text-anchor="middle" fill="#F5F0E7" font-family="Arial, sans-serif" font-size="34" letter-spacing="8">ADD HERO PORTRAIT</text>
+  <text x="560" y="1172" text-anchor="middle" fill="#6F675F" font-family="Arial, sans-serif" font-size="26" letter-spacing="3">Replace with /public/images/profile/usman-hero.webp</text>
+  <path d="M870 202C920 214 958 246 988 298" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <path d="M140 232C177 191 219 166 274 158" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <defs>
+    <radialGradient id="heroGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(575 512) rotate(90) scale(282)">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="0.58" stop-color="#F97316" stop-opacity="0.56"/>
+      <stop offset="1" stop-color="#E8E0D5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

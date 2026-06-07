@@ -1,0 +1,14 @@
+<svg width="1280" height="960" viewBox="0 0 1280 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="960" rx="48" fill="#ECE3D7"/>
+  <rect x="80" y="80" width="1120" height="800" rx="32" fill="#FBF7F0" stroke="#111111" stroke-opacity="0.12"/>
+  <circle cx="368" cy="370" r="178" fill="#111111"/>
+  <circle cx="368" cy="370" r="118" fill="#FBF7F0"/>
+  <path d="M282 370H454" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+  <path d="M368 284V456" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+  <rect x="660" y="204" width="430" height="96" rx="20" fill="#111111"/>
+  <rect x="660" y="340" width="430" height="96" rx="20" fill="#E8DED1"/>
+  <rect x="660" y="476" width="430" height="96" rx="20" fill="#E8DED1"/>
+  <rect x="660" y="612" width="430" height="96" rx="20" fill="#E8DED1"/>
+  <text x="146" y="808" fill="#111111" font-family="Arial, sans-serif" font-size="54" letter-spacing="4">PERSONAL TECHNOLOGY LAB</text>
+  <text x="146" y="862" fill="#6F675F" font-family="Arial, sans-serif" font-size="28" letter-spacing="3">Abstract case-study artwork</text>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "name": "@open-stack/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bot": "tsx src/bot.ts",
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx watch src/server.ts",
+    "scan": "tsx src/scan.ts",
+    "start": "node dist/server.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@open-stack/core": "0.1.0",
+    "@open-stack/storage": "0.1.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "tsx": "^4.19.4",
+    "zod": "^3.25.28"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "typescript": "^5.8.3"
+  }
+}

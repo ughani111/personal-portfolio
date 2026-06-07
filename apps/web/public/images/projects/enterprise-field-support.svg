@@ -1,0 +1,14 @@
+<svg width="1280" height="960" viewBox="0 0 1280 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="960" rx="48" fill="#EFE7DB"/>
+  <rect x="72" y="72" width="1136" height="816" rx="32" fill="#FCF8F3" stroke="#111111" stroke-opacity="0.12"/>
+  <rect x="140" y="152" width="468" height="408" rx="24" fill="#111111"/>
+  <rect x="680" y="152" width="462" height="120" rx="20" fill="#E6DDD0"/>
+  <rect x="680" y="308" width="462" height="120" rx="20" fill="#E6DDD0"/>
+  <rect x="680" y="464" width="462" height="120" rx="20" fill="#E6DDD0"/>
+  <path d="M198 260H550" stroke="#F5F0E7" stroke-opacity="0.28" stroke-width="4" stroke-linecap="round"/>
+  <path d="M198 324H498" stroke="#F5F0E7" stroke-opacity="0.6" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="260" cy="700" r="76" fill="#0EA5E9" fill-opacity="0.16"/>
+  <circle cx="420" cy="700" r="76" fill="#F97316" fill-opacity="0.16"/>
+  <text x="140" y="800" fill="#111111" font-family="Arial, sans-serif" font-size="54" letter-spacing="4">ENTERPRISE FIELD SUPPORT</text>
+  <text x="140" y="854" fill="#6F675F" font-family="Arial, sans-serif" font-size="28" letter-spacing="3">Abstract case-study artwork</text>
+</svg>
